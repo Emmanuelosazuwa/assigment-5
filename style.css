@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.container .form_container .logo img {
+  width: 70px;
+}
+.heading {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  padding: 30px 20px;
+}
+
+/* ::selection {
+  background: gray;
+  color: blue;
+} */
+.container {
+  width: 100%;
+  /* padding: 0 100%; */
+  background-image: url(/css.assignment_5/image/City\ space.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .form_container {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.595);
+  padding: 20px 40px;
+  border-radius: 20px;
+}
+
+.block,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+label {
+  color: #fff;
+}
+
+.checkbox,
+.radio {
+  padding: 40px 0px;
+}
+.checkbox input,
+label {
+  font-size: 25px;
+  line-height: 2;
+}
+input[type="checkbox"] {
+  background: transparent;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 2px;
+  transform: scale(1.5);
+}
+.btn {
+  margin: 10px 0px;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(58, 2, 19, 0.952);
+  border: none;
+  cursor: pointer;
+}
